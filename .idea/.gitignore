@@ -1,8 +1,33 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# ===== Development junk =====
+.idea/
+.Junie/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ===== GitHub / cPanel =====
+.cpanel.yml
+deploy.php
+deploy/
+logs/
+*.log
+
+# ===== Node / build =====
+node_modules/
+dist/
+build/
+.cache/
+*.tmp
+
+# ===== OS-specific =====
+ehthumbs.db
+desktop.ini
+
+# ===== Git =====
+.gitignore
+.git/
+
+# ===== Misc =====
+*.bak
+*.swp
+
